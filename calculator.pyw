@@ -6,13 +6,13 @@ root.geometry("270x230")
 en = Entry(root, width = 42, justify = RIGHT)
 en.grid(row = 0, rowspan = 2, columnspan = 5, pady = 10, padx = 7)
 
-mc = Button(root, text = 'MC', width = 5, height = 1)
+mc = Button(root, text = 'n!', width = 5, height = 1)
 mc.grid(row = 2, column = 0, padx = 5)
 
-mr = Button(root, text = 'MR', width = 5, height = 1)
+mr = Button(root, text = '(', width = 5, height = 1)
 mr.grid(row = 2, column = 1,padx = 5)
 
-ms = Button(root, text = 'MS', width = 5, height = 1)
+ms = Button(root, text = ')', width = 5, height = 1)
 ms.grid(row = 2, column = 2,padx = 5)
 
 pl = Button(root, text = 'M+', width = 5, height = 1)
