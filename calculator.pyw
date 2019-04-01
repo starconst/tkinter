@@ -15,7 +15,7 @@ mr.grid(row = 2, column = 1,padx = 5)
 ms = Button(root, text = ')', width = 5, height = 1)
 ms.grid(row = 2, column = 2,padx = 5)
 
-pl = Button(root, text = 'M+', width = 5, height = 1)
+pl = Button(root, text = '^', width = 5, height = 1)
 pl.grid(row = 2, column = 3,padx = 5)
 
 mini = Button(root, text = 'M-', width = 4, height = 1)
